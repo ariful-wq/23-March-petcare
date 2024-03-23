@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Care</title>
+    <link href="./output.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <section id="nav" class="fixed w-full bg-[#377DB8] bg-opacity-30 z-[100]">
+      <div class="container mx-auto">
+        <nav
+          class="flex flex-wrap justify-between items-center py-4 px-5 md:px-0"
+        >
+          <div><img src="../assets/logo.png" class="w-16 md:w-32" /></div>
+          <div>
+            <div class="text-2xl space-x-5 hidden md:block">
+              <a>Home</a>
+              <a>Product</a>
+              <a>About</a>
+              <a>Contact</a>
+            </div>
+            <button class="inline md:hidden">
+              <span class="material-symbols-outlined"> menu </span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section
+      id="hero"
+      class="min-h-screen bg-cover bg-no-repeat"
+      style="background: url('../assets/heroBackground.png')"
+    >
+      <div class="min-h-screen bg-[#739EE3]/60 flex items-center">
+        <div class="container mx-auto">
+          <div class="text-center text-6xl font-bold">
+            We Care About Your Pet
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section
+      id="profile"
+      class="min-h-screen bg-blue-300 z-10 relative"
+    >
+
+      <div class="min-h-screen  flex items-center">
+        <div class="container mx-auto">
+          <div class="text-center text-6xl font-bold">
+            We Care About Your Pet
+
+          </div>
+          <div> 
+            <div class="w-32 h-32 bg-transparent rounded-full flex items-center place-content-center text-5xl font-bold border-2 border-red-500">2+</div>
+          </div>
+        </div>
+      </div>
+      <img src="../assets/img/background/ic5.png" class="absolute top-0 left-0 w-72 -z-[1]"/>
+      <img src="../assets/img/background/ic6.png" class="absolute top-0 right-0 w-72 -z-[1]"/>
+    </section>
+  </body>
+</html>
